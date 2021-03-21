@@ -1,11 +1,37 @@
 html {
   box-sizing: border-box;
+  font-family: font-family: 'PT Sans', sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-
 grid-template-rows
 grid-template-columns-
+
+/*
+font-family: 'PT Sans', sans-serif;
+font-family: 'PT Serif', serif;
+*/
+
+img {
+  width: 100%
+}
+
+figure {
+  padding: 0;
+}
+
+figcaption {
+  k
+}
+
+header {
+  background-color: #c9b5ab;
+}
+
+strong {
+  font-weight: normal;
+}
