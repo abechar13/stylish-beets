@@ -16,7 +16,7 @@ font-family: 'PT Serif', serif;
 
 h1, h2 {
   font-family: "PT Sans", serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: normal;
   color: #3f1622;
 }
@@ -68,6 +68,11 @@ header a {
   font-family: "PT Serif", serif;
 }
 
+.seperate {
+  font-size: 1em;
+  font-weight: bold;
+}
+
 .stylish-beets {
   float: left;
   width: 30%;
@@ -108,4 +113,13 @@ cite {
   font-family: "PT Serif", serif;
   text-align: left;
   font-size: 1em;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+  font-weight: lighter;
 }
