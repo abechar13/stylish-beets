@@ -14,10 +14,11 @@ font-family: 'PT Sans', sans-serif;
 font-family: 'PT Serif', serif;
 */
 
-h1 {
+h1, h2 {
   font-family: "PT Sans", serif;
   font-size: 2rem;
   font-weight: normal;
+  color: #3f1622;
 }
 
 img {
@@ -33,7 +34,6 @@ figcaption {
   font-size: .8em;
   font-style: italic;
   font-family: "PT Serif", serif;
-  background-position: center;
 }
 
 header {
@@ -64,6 +64,8 @@ header a {
 
 .first-child {
   font-size: 1rem;
+  font-weight: normal;
+  font-family: "PT Serif", serif;
 }
 
 .stylish-beets {
@@ -100,4 +102,10 @@ a:hover {
   font-size: 1.5rem;
   font-family: "PT Serif", serif;
   text-align: center;
+}
+
+cite {
+  font-family: "PT Serif", serif;
+  text-align: left;
+  font-size: 1em;
 }
