@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   line-height: 1.5;
   background-color: #c9b5ab;
 }
@@ -9,16 +9,19 @@ html {
   box-sizing: inherit;
 }
 
-grid-template-rows
-grid-template-columns-
-
 /*
 font-family: 'PT Sans', sans-serif;
 font-family: 'PT Serif', serif;
 */
 
+h1 {
+  font-family: "PT Sans", serif;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
 img {
-  width: 100%
+  width: 100%;
 }
 
 figure {
@@ -29,7 +32,8 @@ figure {
 figcaption {
   font-size: .8em;
   font-style: italic;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
+  background-position: center;
 }
 
 header {
@@ -43,7 +47,7 @@ header a {
 }
 
 .title {
-  color: #3f1622
+  color: #3f1622;
 }
 
 .main-content {
@@ -55,7 +59,11 @@ header a {
 }
 
 .main-content img {
-  width: 100%;
+  width: 90%;
+}
+
+.first-child {
+  font-size: 1rem;
 }
 
 .stylish-beets {
@@ -71,9 +79,19 @@ ol {
 
 ol li {
   margin: 0 1em;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 strong {
   font-weight: normal;
+}
+
+a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #222;
+  text-decoration: underline;
 }
