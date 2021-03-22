@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   line-height: 1.5;
 }
 
@@ -22,14 +22,44 @@ img {
 
 figure {
   padding: 0;
+  margin: 0;
 }
 
 figcaption {
-  k
+  font-size: .8em;
+  font-style: italic;
+  font-family: 'PT Serif', serif;
 }
 
 header {
   background-color: #c9b5ab;
+}
+
+header a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+.main-content {
+  max-width: 40em;
+  margin: 0 auto;
+  display: block;
+  padding: 1em;
+}
+
+.stylish-beets {
+  float: left;
+  width: 30;
+  margin: 0 1em 0 0;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+ol li {
+  margin: 0 1em;
 }
 
 strong {
