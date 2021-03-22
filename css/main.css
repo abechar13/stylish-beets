@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: 'PT Sans', sans-serif;
   line-height: 1.5;
+  background-color: #c9b5ab;
 }
 
 *, *::before, *::after {
@@ -33,6 +34,7 @@ figcaption {
 
 header {
   background-color: #c9b5ab;
+  color: #222;
 }
 
 header a {
@@ -40,16 +42,25 @@ header a {
   text-decoration: none;
 }
 
+.title {
+  color: #3f1622
+}
+
 .main-content {
+  background-color: #c9b5ab;
   max-width: 40em;
   margin: 0 auto;
   display: block;
   padding: 1em;
 }
 
+.main-content img {
+  width: 100%;
+}
+
 .stylish-beets {
   float: left;
-  width: 30;
+  width: 30%;
   margin: 0 1em 0 0;
 }
 
@@ -60,6 +71,7 @@ ol {
 
 ol li {
   margin: 0 1em;
+  font-family: 'PT Sans', sans-serif;
 }
 
 strong {
