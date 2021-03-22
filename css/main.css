@@ -95,3 +95,9 @@ a:hover {
   color: #222;
   text-decoration: underline;
 }
+
+.quote {
+  font-size: 1.5rem;
+  font-family: "PT Serif", serif;
+  text-align: center;
+}
