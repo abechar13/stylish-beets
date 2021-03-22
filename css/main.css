@@ -141,7 +141,7 @@ ul li {
   font-weight: normal;
   font-style: normal;
   font-family: "PT Serif", serif;
-  font-size: 0.8rem;
+  font-size: .8rem;
   list-style: circle;
 }
 
@@ -149,5 +149,5 @@ footer {
   font-weight: normal;
   font-style: normal;
   font-family: "PT Serif", serif;
-  font-size: 0.7rem;
+  font-size: .7rem;
 }
